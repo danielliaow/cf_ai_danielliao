@@ -82,8 +82,8 @@ graph TB
 ### 1. Clone and Install
 
 ```bash
-git clone <repository-url>
-cd claudecode/SupabaseAuthApp
+git clone https://github.com/danielliaow/cf_ai_danielliao.git
+cd cf_ai_danielliao
 npm install
 
 # Install backend dependencies
@@ -160,6 +160,21 @@ npm run android  # Run on Android emulator
 npm run web      # Run in web browser
 ```
 
+### 5. Try Out Components (Local)
+
+Once the frontend and backend are running, you can explore key experiences:
+
+- Chat and Voice: open the Chat tab in the app UI (Expo Router path: `/chat`).
+- Onboarding: open the root/home tab (path: `/`).
+- Settings: open the Settings tab (path: `/settings`).
+- Auth screens: available under `(auth)` group (paths: `/signin`, `/callback`).
+
+Notes:
+- On web, use the browser URL bar to navigate to paths like `/chat` after `npm run web` launches.
+- On native (iOS/Android), use the bottom tab bar to switch between Home, Chat, Profile, and Settings.
+
+Optional deployed link: if you deploy the backend and a web build, add your public URL here for quick access.
+
 ## 💬 Usage Examples
 
 ### Voice Interaction
@@ -213,7 +228,7 @@ curl -X POST http://localhost:3001/api/external-mcp/servers \
 
 ### Project Structure
 ```
-claudecode/SupabaseAuthApp/
+cf_ai_danielliao/
 ├── app/                    # Expo Router pages
 │   ├── (auth)/            # Authentication screens
 │   └── (tabs)/            # Main app tabs
