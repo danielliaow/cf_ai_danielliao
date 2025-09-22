@@ -1,4 +1,4 @@
-# 🔥 Embr - AI-Powered Voice Assistant
+# AI-Powered Voice Assistant
 
 [![Expo](https://img.shields.io/badge/Expo-53.0.22-000020.svg?style=flat&logo=expo&logoColor=white)](https://expo.dev/)
 [![React Native](https://img.shields.io/badge/React_Native-0.79.6-61DAFB.svg?style=flat&logo=react&logoColor=white)](https://reactnative.dev/)
@@ -6,7 +6,7 @@
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.8.3-3178C6.svg?style=flat&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 [![Node.js](https://img.shields.io/badge/Node.js-Express-339933.svg?style=flat&logo=node.js&logoColor=white)](https://nodejs.org/)
 
-> **Embr** is a comprehensive AI-powered conversational assistant with voice capabilities, Google Workspace integration, deep linking, and extensible MCP (Model Context Protocol) architecture. Built with React Native (Expo) and powered by Gemini AI.
+> a comprehensive AI-powered conversational assistant with voice capabilities, Google Workspace integration, deep linking, and extensible MCP (Model Context Protocol) architecture. Built with React Native (Expo) and powered by Gemini AI.
 
 ## ✨ Key Features
 
